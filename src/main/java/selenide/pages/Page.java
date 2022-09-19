@@ -10,6 +10,9 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public abstract class Page {
 
+    // Constant url
+    public static String BASE_URL = "https://www.quandoo.de";
+    public static String ENQUIRY_URL = BASE_URL + "/en/checkout/enquiry?restaurantUrl=cavallino-rosso-306";
     // Classes
     protected Faker faker;
     // Locators
